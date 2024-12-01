@@ -4,7 +4,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const fs = require('fs');
 const path = require('path');
 
-const token = '7660399624:AAEfWl2ol6R6QN2DHY_i8VYlzOtws9J8uvs'; // Replace with your bot token
+const token = '<key>'; // Replace with your bot token
 const bot = new TelegramBot(token, { polling: true });
 
 console.log('Bot is starting...');
